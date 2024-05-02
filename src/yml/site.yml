@@ -1,26 +1,25 @@
-name: Jekflix
-title: Jekflix | A blog theme for Jekyll
-description: Jekflix is a template for Jekyll inspired by Netflix and made by
-  Thiago Rossener.
+name: A Sétima Nébula
+title: A Sétima Nébula 
+description: A Sétima Nébula é um blog contendo artigos sobre temas relacionados à Engenharia de Dados, escritos de uma maneira simples e intuitiva.
 tags:
   - blog
-  - template
-  - jekyll
-  - theme
-  - netlify
+  - data
+  - data engineering
+  - code
+  - programming
 show_hero: true
 menu:
   - title: Home
     url: /
   - title: Sobre
-    url: /about
-  - title: Contact
-    url: /contact
+    url: /sobre
+  - title: Contato
+    url: /contato
   - title: Feed
     url: /feed.xml
-email: youremail@test.com
+#email: andre.luis.e3@gmail.com
 # See: https://disqus.com/
-disqus_username: disqus_username
+disqus_username:
 # Contact Form Setting
 # See: https://formspree.io/
-formspree_form_id: formspree_form_id
+#formspree_form_id: formspree_form_id
