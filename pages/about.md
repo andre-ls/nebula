@@ -7,7 +7,7 @@ description:
 permalink: /sobre/
 ---
 
-<img class="img-rounded" src="/assets/img/uploads/andre.jpeg" alt="André Machado" width="300">
+<img class="img-rounded" src="assets/img/uploads/andre.jpeg" alt="André Machado" width="300">
 
 # Sobre
 
