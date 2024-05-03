@@ -14,16 +14,16 @@ menu:
     url: /
   - title: Sobre
     url: /sobre
-  - title: Contato
-    url: /contato
-  - title: Feed
-    url: /feed.xml
-#email: andre.luis.e3@gmail.com
+  #- title: Contato
+  #  url: /contato
+  #- title: Feed
+  #  url: /feed.xml
+email:
 # See: https://disqus.com/
 disqus_username:
 # Contact Form Setting
 # See: https://formspree.io/
-#formspree_form_id: formspree_form_id
+formspree_form_id:
 
 
 # Social Media Settings
@@ -60,7 +60,7 @@ collections:
   authors:
     output: true
 paginate_path: "/page/:num/"
-show_get_theme_btn: true
+show_get_theme_btn: false
 use_logo: false
 
 # Content paginator
