@@ -1,0 +1,41 @@
+translations:
+  text:
+    new_post: "Novo Post"
+    see_also: "Veja Também"
+    search: "Pesquisar"
+    author: "Autor"
+    share: "Compartilhe"
+    comments: "Comentários"
+  button:
+    read_now: "Leia"
+    share_on_twitter: "Compartilhe no Twitter"
+    share_on_facebook: "Compartilhe no Facebook"
+  pagination:
+    page: "Página"
+    of: "de"
+    next_page: "Pŕoxima Página"
+    next_post: "Página Anterior"
+  recommendation:
+    text: "Why don't you read something next?"
+    back_btn: "Go back to top"
+  error_404:
+    title: "Página não encontrada :("
+    message: "Desculpe. Não encontrei a página que você procura."
+    image_alt: "404 - Página não encontrada."
+  contact:
+    title: "Talk to me"
+    subject: "New contact!"
+    submit_btn: "Send"
+    placeholders:
+      name: "Seu nome"
+      email: "Seu E-mail"
+      message: "Sua Mensagem"
+    errors:
+      locale: "pt-BR"
+      empty_name: "Nome é obrigatório"
+      empty_email: "Email é obrigatório"
+      invalid_email: "Email inválido"
+      empty_message: "Uma mensagem é obrigatória"
+    after_send:
+      title: "Mensagem Enviada!"
+      message: "Obrigado por enviar uma mensagem!"

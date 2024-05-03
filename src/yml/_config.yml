@@ -8,6 +8,9 @@
 # Posts Settings
 #=include posts.yml
 
+# Translations Settings
+#=include translations.yml
+
 # Advanced Settings
 #=include advanced.yml
 
