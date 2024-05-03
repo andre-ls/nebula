@@ -1,19 +1,26 @@
 ---
 layout: page
 menu: false
-date: '2020-02-27 01:53:59'
-title: About
-description: Some description.
-permalink: /about/
+date: '2024-05-02 01:53:59'
+title: Sobre
+description:
+permalink: /sobre/
 ---
 
-<img class="img-rounded" src="/assets/img/uploads/profile.png" alt="Thomas A. Anderson" width="200">
+<img class="img-rounded" src="/assets/img/uploads/andre.jpeg" alt="André Machado" width="300">
 
-# About
+# Sobre
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+Olá, eu me chamo André 👋
+
+Sou um Engenheiro Eletricista de formação, buscando todos os dias me desenvolver para me tornar um Engenheiro de Dados, e assim poder, através da conversão de dados em informação, auxiliar outras pessoas a tomarem melhores decisões, performarem melhor, alcançarem seus objetivos e assim fazer um mundo melhor.
+
+A escrita é algo que pratiquei em alguns momentos esporádicos da minha jornada até agora, e apesar de nunca ter se aprofundado muito, sempre que me dediquei a isso, gostei bastante. Esse projeto talvez seja uma oportunidade para aprender e praticar mais, além de poder publicar meus textos, algo que nunca fiz antes.
+
+Além disso, sou músico! Toco contrabaixo elétrico, principalmente rock. Tive uma breve passagem por uma banda profisional, e apesar de que tive de abrir mão da oportunidade para focar um pouco mais na minha carreira, espero um dia voltar a tocar novamente. Até lá, continuo estudando teoria musical e algumas técnicas no meu tempo livre.
+
+E quando não estou fazendo nada (nada mesmo kkkk), gosto de jogar um pouco. Atualmente tenho jogado títulos próximos do RPG, principalmente jogos da franquia Final Fantasy.
+
+
+
+
