@@ -1,6 +1,6 @@
 ---
 layout: author
-photo: /assets/img/uploads/andre.jpeg
+photo: ../assets/img/uploads/andre.jpeg
 name: andre-ls
 display_name: André Machado
 position: Estudante
