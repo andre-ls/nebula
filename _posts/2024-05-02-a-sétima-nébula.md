@@ -19,3 +19,11 @@ Seu objetivo é basicamente o de compartilhar um pouco de conhecimento através 
 - Escrita informal, sem o rigor excessivo de artigos científicos.
 
 Se isso faz sentido para você, fique à vontade para ler alguma coisa por aqui, ou mandar alguma sugestão de tema. Feedbacks também são bem-vindos!
+
+## Nome
+![Seventh Heaven](https://s3.eu-central-1.wasabisys.com/open3dlab-thumbs/projectfile/6_CbHLE9v_thumb.detail.png)
+
+O nome é uma inspiração do Seventh Heaven, um bar texano localizado nos subúrbios de uma cidade chamada Midgar, cenário do jogo Final Fantasy 7. Um bar aconchegante, com uma estrutura elegante de madeira, que se destaca entre as ruas estreitas sem calçamento, e as estruturas metálicas que dominam as redondezas. O salão apresenta um ambiente aconchegante, onde os trabalhadores podem desfrutar de comidas e bebidas após uma longa jornada de trabalho. No porão, entretanto, cujo acesso é cuidadosamente escondido por uma máquina de pinball,  se encontra a base de operações de um grupo de pessoas que planeja mudar o mundo.
+
+## Estilo
+Este site foi construído utilizando o framework Jekyll e um incrível template como base, o [Jekflix](https://github.com/thiagorossener/jekflix-template) criado pelo [Thiago Rossener](https://github.com/thiagorossener), com um estilo baseado na interface do Netflix.
