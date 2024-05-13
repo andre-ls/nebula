@@ -91,13 +91,21 @@ O Linux é um sistema que se encontra mais presente no dia a dia do que imaginam
 
 ## Referências
 [A Comprehensive History of Linux, por Uzair](https://medium.com/@umutasim999/a-comprehensive-history-of-linux-a965338f874f)
+
 [A Brief History of the Linux Operating System, por freecodecamp](https://forum.freecodecamp.org/t/a-brief-history-of-the-linux-operating-system/19524)
+
 [Linux History, por geeksforgeeks](https://www.geeksforgeeks.org/linux-history/)
+
 [History of Multics, por MIT](https://web.mit.edu/multics-history/)
+
 [Unix Definition, por TechTarget](https://www.techtarget.com/searchdatacenter/definition/Unix)
+
 [Unix - A Origem dos Sistemas, por Linuxuniverse](https://linuxuniverse.com.br/historia/unix)
+
 [9 reasons Linux is a popular choice for servers, por LogicMonitor](https://www.logicmonitor.com/blog/9-reasons-linux-is-a-popular-choice-for-servers)
+
 [Linux Distribution Definition, por Suse](https://www.suse.com/suse-defines/definition/linux-distribution/)
+
 [Linux Statistics, por Enterprise Apps Today](https://www.enterpriseappstoday.com/stats/linux-statistics.html)
 
 
