@@ -11,7 +11,7 @@ tags: bigdata objectstorage cloud
 author: andre-ls
 paginate: false
 ---
-No último artigo que escrevi, falei brevemente sobre alguns motivos pelos quais os elementos básicos do Hadoop (MapReduce e HDFS) perderam espaço no mercado para outras ferramentas. E lá eu citei brevemente que um dos motivos pelo qual o HDFS, o sistema de armazenamento utilizado pelo Hadoop, perdeu a sua liderança no mercado foi devido às atuais tendências de separação entre computação e armazenamento. Bem, devido à falta de um bom exemplo para explicar isso enquanto escrevia o último artigo, bem como visando não deixá-lo muito longo, neste artigo trago este tópico (que é bem interessante) de uma maneira mais detalhada. 
+[No último artigo que escrevi](https://andre-ls.github.io/nebula/hadoop-elefantes-amarelos,-clusters-e-fagulhas/), falei brevemente sobre alguns motivos pelos quais os elementos básicos do Hadoop (MapReduce e HDFS) perderam espaço no mercado para outras ferramentas. E lá eu citei brevemente que um dos motivos pelo qual o HDFS, o sistema de armazenamento utilizado pelo Hadoop, perdeu a sua liderança no mercado foi devido às atuais tendências de separação entre computação e armazenamento. Bem, devido à falta de um bom exemplo para explicar isso enquanto escrevia o último artigo, bem como visando não deixá-lo muito longo, neste artigo trago este tópico (que é bem interessante) de uma maneira mais detalhada. 
 
 ## Primeiro, o Básico
 
