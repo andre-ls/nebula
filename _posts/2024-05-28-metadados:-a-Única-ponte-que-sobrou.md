@@ -29,16 +29,16 @@ Esse é um dos aspectos mais importantes dos Metadados. Auxiliar a descoberta de
 Um exemplo muito simples. Você vai em uma livraria à procura de um livro sobre Machine Learning. Você pretende estudar sobre o assunto de uma maneira geral, mas tem um interesse específico em Redes Neurais. Logo, ao encontrar alguns livros sobre o tema (que você provavelmente encontrou através do título), você checa o sumário e a sinopse de cada um buscando saber se eles falam sobre o tema que te interessa. O sumário, a sinopse e o título, bem como o nome do autor, data de publicação, a editora, são todos metadados que te ajudaram a identificar livros que possam te ajudar entre centenas de outros livros presentes na livraria.
 
 ### Tipos de Metadados
-As possibilidades de informações que podem ser cobertas pelos Metadados é um pouco grande, e naturalmente, criam-se alguns tipos de Metadados. Acredito que existam mais de uma definição quanto a isso por aí, especialmente se tratando de um assunto em evolução no momento em que escrevo, mas segue uma definição que encontrei em mais de uma fonte.
+As possibilidades de informações que podem ser cobertas pelos Metadados é um pouco grande, e naturalmente, criam-se alguns tipos. Acredito que existam mais de uma definição quanto a isso por aí, especialmente se tratando de um assunto em evolução no momento em que escrevo, mas segue uma definição que encontrei em mais de uma fonte.
 
 - *Metadados Descritivos*: Incluem informações sobre o conteúdo de um recurso e a sua origem, como título, autor, data de criação e descrições, como resumos, sinopses entre outros.
 - *Metadados Estruturais*: Incluem informações a respeito da organização e estruturação dos elementos dentro do recurso. Vão desde um sumário, contendo a estrutura de capítulos de um livro, até a listagem e definição de tipos de colunas em uma tabela (o famoso schema).
 - *Metadados Administrativos*: Incluem informações que auxiliam na administração e governança dos recursos. Podem envolver o responsável pelos recursos e quem tem acesso a eles, de onde os dados do recurso foram derivados, além de aspectos técnicos, como tamanho e formato do recurso.
 
 ## Fechando a Ponte
-Ok, com todo esse poder de identificação de recursos dos metadados, vamos entender agora como ele fecha a ponte entre o processamento e o armazenamento. E para isso, vamos voltar ao mundo do Hadoop, onde temos um precursor das ferramentas de armazenamento e gerenciamento de metadados: O Hive Metastore.
+Ok, com todo esse poder de identificação de recursos dos metadados, vamos entender agora como ele fecha a ponte entre o processamento e o armazenamento. E para isso, vamos voltar ao mundo do Hadoop, onde temos um precursor das ferramentas de armazenamento e gerenciamento de metadados: **O Hive Metastore**.
 
-O Apache Hive é uma ferramenta do ambiente Hadoop que cria uma interface SQL sobre o ambiente Hadoop, permitindo a execução de consultas sobre os dados armazenados no HDFS, o sistema padrão de armazenamento do Hadoop. O problema aqui é: Como executar uma query em SQL, que fala em tabelas e colunas, em cima de dados que estão armazenados em arquivos?
+O Apache Hive é uma ferramenta do ambiente Hadoop que cria uma interface SQL para acesso aos dados, permitindo a execução de consultas sobre os dados armazenados no HDFS, o sistema padrão de armazenamento do Hadoop, de uma maneira mais acessível ao usuário. O problema aqui é: Como executar uma query em SQL, que fala em tabelas e colunas, em cima de dados que estão armazenados em arquivos?
 
 Para sanar esse problema, o Hive introduziu um elemento chave em sua arquitetura, o Metastore, que consiste em um elemento responsável por armazenar os metadados dos dados acessíveis pelo Hive, incluindo definições sobre as tabelas, suas colunas com os devidos tipos de dados, processos para leitura e gravação dos dados, e a localização dos arquivos que compõem os dados da tabela.
 
@@ -75,7 +75,7 @@ Para potencializar ainda mais essa ideia, novas soluções de armazenamento e ge
 - **Capacidades avançadas de Pesquisa**: Pesquisas por texto ou até mesmo por consultas SQL estão ganhando suporte.
 - **Atualização automática de Metadados Estruturais**: Mudanças como a adição ou remoção de colunas são automaticamente captadas e os devidos metadados atualizados.
 - **Acompanhamento da Linhagem dos Dados**: A Linhagem consiste em toda a sequência lógica até a composição de um determinado conjunto de dados, o que pode envolver por exemplo a combinação de colunas de diferentes grupos de dados ou até de diferentes fontes de dados. E as novas ferramentas vem permitindo esse acompanhamento.
-- **Observabilidade e Qualidade dos Dados**: Talvez essa seja uma das mais importantes tendências dos metadados (bem, pelo menos no momento que escrevo). Novas categorias de metadados estão trazendo consigo informações sobre a qualidade dos dados, obtidas através de integração direta com ferramentas de testes e observabilidade. Isso vem tornando os metadados uma ferramenta cada vez mais importante para a aplicação da Governança de Dados dentro de uma empresa, e o usuário cada vez mais servido com dados de qualidade superior para suas aplicações.
+- **Observabilidade e Qualidade dos Dados**: Talvez essa seja uma das mais importantes tendências dos metadados (bem, pelo menos no momento que escrevo). Novas categorias de metadados estão trazendo consigo informações sobre a qualidade dos dados, obtidas através de integração direta com ferramentas de testes e observabilidade. Isso vem tornando os metadados uma ferramenta cada vez mais inserida dentro do contexto de Governança de Dados de uma organização.
 
 ## Metadados for the Win
 
