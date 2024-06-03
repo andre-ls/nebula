@@ -54,8 +54,7 @@ Um Data Lake basicamente é um grande repositório central de dados que suporta 
 É uma solução muito robusta e eficiente que vem sendo bastante utilizada para o armazenamento e processamento de grandes quantidades de dados nos dias atuais. E de fato, também pode ser um forte candidato para o armazenamento centralizado de metadados, atendendo o seu crescimento de volume, de tipos diferentes (já que suporta dados de vários formatos), e de casos de uso (com o armazenamento de dados brutos que podem ser processados futuramente para a construção de uma aplicação).
 
 ![Fonte: Medium, 2021.](https://i.imgur.com/YnMaAQo.png)
-
-Fonte: Medium, 2021.
+*Fonte: Medium, 2021.*
 
 Mas para os metadados parece existir um fator que merece algumas tratativas próprias: A Capacidade de Integração.
 
@@ -70,9 +69,8 @@ Para atender essas necessidades, algumas proposições adicionais já vem sendo 
 - **API’s e Interfaces:** Os metadados precisam ser facilmente acessíveis não somente por usuários, mas também pelas ferramentas que precisam se integrar a esses dados. A utilização de API’s é uma das maneiras mais populares de criar integração entre ferramentas, e portanto, pode ser um importante requisito nessa nova arquitetura.
 - **Armazenamento em Grafos:** O grande valor dos metadados está na conexão de informações de diferentes fontes, e para suportar isso da melhor maneira, algumas ideias indicam a possibilidade de utilizar um formato de armazenamento dos dados baseado em uma estrutura de grafos, onde os nós são os diversos recursos de dados, e as setas indicam a relação entre eles.
     
-    ![Fonte: Medium, 2023.](https://i.imgur.com/hgQbg03.png)
-    
-    Fonte: Medium, 2023.
+![Fonte: Medium, 2023.](https://i.imgur.com/hgQbg03.png)
+*Fonte: Medium, 2023.*
     
 
 ## Mais Novo do que o Recente
