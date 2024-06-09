@@ -1,7 +1,7 @@
 ---
 date: 2024-06-09 20:21:49
 layout: post
-title: "Inteligência.Em Máquinas."
+title: "Inteligência. Em Máquinas."
 subtitle:
 description:
 image: https://i.imgur.com/yRAALVi.png
