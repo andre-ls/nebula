@@ -98,7 +98,7 @@ Para construir uma lógica efetiva, o computador passa por um processo chamado d
 
 ![Processo de Treinamento](https://i.imgur.com/LHv8xsl.png)
 
-Até que após várias passagens, o computador enfim cria uma estratégia eficiente que pode ser aplicada a qualquer partida futura. 
+Até que após várias passagens, o computador enfim cria uma estratégia eficiente que pode ser aplicada a qualquer partida futura. Assim, como o jogador humano, o computador também passa por várias tentativas, derrotas e ajustes até ganhar uma partida.
 
 ## Conclusão (por agora)
 No fim, o aprendizado, seja por um humano, ou pela máquina, segue um processo parecido de tentativas, erros e otimizações até chegar num bom resultado. A diferença está na forma como cada um faz isso. Enquanto o humano usa a sua criatividade, o computador usa uma grande quantidade de dados e vários cálculos matemáticos que estão por trás do funcionamento real de uma solução de Machine Learning (e que estão além da ideia desse artigo). 
