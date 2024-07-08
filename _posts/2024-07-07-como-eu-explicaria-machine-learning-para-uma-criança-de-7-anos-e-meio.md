@@ -23,7 +23,7 @@ Bem, uma grande verdade é que o Machine Learning é uma bela simulação do apr
 
 Fortnite é um jogo de popularmente jogado em uma modalidade conhecida como battle royale, onde vários jogadores se enfrentam em um cenário gigante até que reste apenas um único time ou jogador sobrevivente. No caso do Fortnite, cada partida incluem 100 jogadores, jogando sozinhos ou formando times. 
 
-Os jogadores iniciam a partida dentro de uma aeronave, que sobrevoa o mapa segundo um trajeto, ao longo do qual, a qualquer momento, os jogadores podem pular de paraquedas para o cenário. Ao escolher um determinado momento para pular, os jogadores podem esperar um momento mais adequado para alcançar uma parte específica do mapa em um tempo menor. 
+Os jogadores iniciam a partida dentro de uma aeronave, que sobrevoa o mapa segundo um trajeto, ao longo do qual, a qualquer momento, os jogadores podem pular de paraquedas para o cenário. Ao escolher um determinado instante para pular, os jogadores podem esperar um momento mais adequado para alcançar uma parte específica do mapa em um tempo menor. 
 
 O cenário é composto por diversas construções, dentro das quais, aleatoriamente, os jogadores podem encontrar armas e munições que utilizarão para eliminar os oponentes e sobreviver. 
 
@@ -53,7 +53,7 @@ Claramente a estratégia não funcionou. Algo dela deu errado. O jogador para um
 
 Ok. Segunda Partida. O nosso jogador segue a estratégia e consegue sobreviver além dos 10 segundos. Ele consegue encontrar uma pistola e uma espingarda. Não há nenhum oponente próximo, mas há uma cidade um pouco mais ao norte, de onde escuta-se alguns disparos. Certamente deve haver oponentes por lá. Ao longo do caminho até a cidade, o jogador avista, de longe, um oponente em cima de um prédio, virado de costas, mirando em algum lugar. E daquele lugar mesmo, ainda distante, o nosso jogador saca uma pistola e começa a atirar no oponente. O oponente, entretanto, percebendo alguns tiros vindo pelas suas costas, se vira para procurar o autor dos disparos, e revela estar portando uma bela sniper, perfeita para abates em longo alcance. E com dois disparos dessa potente arma, o nosso jogador foi eliminado, mais uma vez. Fim da segunda partida. 
 
-Bem, hora de repensar o plano novamente. A primeira alteração feita parece ter sido positiva, afinal, o jogador sobreviveu por mais tempo. Mas adiante disso, tem algo errado. Ao pesquisar um pouco e assistir outros jogadores, ele descobre que cada tipo de arma possui um cenário de uso mais adequado com base em algumas de suas características. Espingardas, por exemplo, possuem uma precisão muito baixa, e causam uma grande quantidade de dano em pequenas distâncias, o que as faz ser uma ótima escolha para enfrentar inimigos muito próximos. Snipers possuem uma alta precisão e uma grande quantidade de dano, mesmo em grandes distâncias, mas elas demoram muito para recarregar e são péssimas para um combate próximo, onde agilidade é algo importante. E por aí vai.
+Bem, hora de repensar o plano novamente. A primeira alteração feita parece ter sido positiva, afinal, o jogador sobreviveu por mais tempo. Mas adiante disso, tem algo errado. Ao pesquisar um pouco e assistir outros jogadores, ele descobre que cada tipo de arma possui um cenário de uso mais adequado com base em algumas de suas características. Espingardas, por exemplo, possuem uma precisão muito baixa, mas causam uma grande quantidade de dano em pequenas distâncias, o que as faz ser uma ótima escolha para enfrentar inimigos muito próximos. Snipers possuem uma alta precisão e uma grande quantidade de dano, mesmo em grandes distâncias, mas elas demoram muito para recarregar e são péssimas para um combate próximo, onde agilidade é algo importante. E por aí vai.
 
 ![Um belo tiro de Sniper.](https://i.imgur.com/ekxdBe7.gif)
 *Um belo tiro de Sniper.*
@@ -79,7 +79,7 @@ Vamos criar um outro exemplo agora. Só que dessa vez, o nosso jogador é um com
 
 Assim, como o nosso jogador humano, o computador não sabe muita coisa sobre o jogo no início, e ele também precisa criar uma estratégia eficaz para vencer o jogo. Ele poderia passar pelo mesmo processo de perder várias partidas e usar seu poder criativo para ajustar sua estratégia até vencer. O problema é que computadores não são lá tão criativos, mas eles são bons em uma outra coisa: Processar uma grande quantidade de informações ao mesmo tempo.
 
-Então considerando isso, podemos seguir um atalho. Ao invés de fazer o computador passar por todo o longo processo de criar uma estratégia, que tal seguir o seguinte processo?
+Então considerando isso, podemos seguir um atalho. Ao invés de fazer o computador passar por todo o longo processo de criar uma estratégia, que tal seguir o caminho alternativo apresentado a seguir?
 
 - Coletamos várias informações de partidas dos jogadores mais experientes do Fortnite, como por exemplo onde ele pousou, que armas usou, que trajeto ele percorreu, que materiais ele coletou, de que distância ele abateu inimigos e muitas outras coisas.
 - Fornecemos esse conjunto de informações para o computador, indicando quais partidas  foram vencidas e quais foram perdidas pelo jogador analisado.
@@ -101,7 +101,6 @@ Para construir uma lógica efetiva, o computador passa por um processo chamado d
 Até que após várias passagens, o computador enfim cria uma estratégia eficiente que pode ser aplicada a qualquer partida futura. 
 
 ## Conclusão (por agora)
-
 No fim, o aprendizado, seja por um humano, ou pela máquina, segue um processo parecido de tentativas, erros e otimizações até chegar num bom resultado. A diferença está na forma como cada um faz isso. Enquanto o humano usa a sua criatividade, o computador usa uma grande quantidade de dados e vários cálculos matemáticos que estão por trás do funcionamento real de uma solução de Machine Learning (e que estão além da ideia desse artigo). 
 
 No papel, propor uma solução de Machine Learning parece fácil, mas construir uma solução efetiva é algo bastante desafiador. E esse desafio já começa, como talvez tenha sido possível perceber no exemplo, na obtenção de uma grande quantidade de dados relevantes para a construção de uma lógica. A Engenharia de Dados existe, em parte, para resolver isso, e no próximo artigo, pretendo explorar como fornecer os dados que alimentam essas tecnologias.
