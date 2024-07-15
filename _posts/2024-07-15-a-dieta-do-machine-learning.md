@@ -92,7 +92,7 @@ Uma solução só é capaz de detectar padrões que foram apresentados através 
 
 Portanto, quando se trata de quantidades, é importante considerar isso. Quanto mais casos os dados cobrirem, com mais precisão o modelo conseguirá detectar casos futuros. Afinal…
 
-## Uma solução só é tão boa quanto os seus Dados
+## Uma Solução só é tão boa quanto os seus Dados
 ![Fonte:Timo Elliott](https://i.imgur.com/9PqzDtD.png)
 *Fonte:Timo Elliott*
 
