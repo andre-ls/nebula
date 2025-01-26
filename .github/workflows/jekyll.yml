@@ -26,6 +26,10 @@ jobs:
           sudo apt-get install -y git-core curl zlib1g-dev build-essential libssl-dev libreadline-dev libyaml-dev libsqlite3-dev sqlite3 libxml2-dev libxslt1-dev libcurl4-openssl-dev software-properties-common libffi-dev
           sudo apt-get install -y libgmp-dev libncurses5-dev libtool bison libffi-dev libgdbm-dev libreadline-dev libyaml-dev libsqlite3-dev sqlite3 libxml2-dev libxslt1-dev autoconf automake libbz2-dev
           sudo apt-get install -y libssl-dev libcrypto++-dev make
+          # Adicionando bibliotecas específicas necessárias para compilar bigdecimal, eventmachine e http_parser.rb
+          sudo apt-get install -y libssl-dev libtool
+          sudo apt-get install -y pkg-config
+          sudo apt-get install -y ruby-dev
       - name: Install ruby-build
         run: |
           git clone https://github.com/rbenv/ruby-build.git
