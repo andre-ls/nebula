@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>A Sétima Nébula</title>
+    <description>A Sétima Nébula é um blog contendo artigos sobre temas relacionados à Engenharia de Dados, escritos de uma maneira simples e intuitiva.</description>
+    <link>/</link>
+    <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Sun, 26 Jan 2025 20:18:25 +0000</pubDate>
+    <lastBuildDate>Sun, 26 Jan 2025 20:18:25 +0000</lastBuildDate>
+    <generator>Jekyll v3.10.0</generator>
+    
+      <item>
+        <title>Apache Parquet (E porque eles são melhores que CSV)</title>
+        <description>&lt;p&gt;Por muito tempo, os dados dentro das empresas eram trafegados, tratados e consumidos em planilhas do Excel. Até certo ponto, na verdade, pode-se dizer que isso ainda continua. O seu conceito de planilhas e suas inúmeras possibilidades o tornam uma ferramenta flexível que faz parte do cenário de trabalho de muitas funções por aí e colocam nas mãos dos usuários finais, com pouco treinamento, grandes poderes de processar dados, calcular novas colunas e métricas, gerar gráficos e relatórios, entre outros.&lt;/p&gt; &lt;p&gt;E com essa popularidade, veio a natural utilização de formatos de arquivos como o .xlsx e o .csv para armazenar...</description>
+        <pubDate>Sun, 26 Jan 2025 14:33:46 +0000</pubDate>
+        <link>/apache-parquet-(e-porque-eles-s%C3%A3o-melhores-que-csv)/</link>
+        <guid isPermaLink="true">/apache-parquet-(e-porque-eles-s%C3%A3o-melhores-que-csv)/</guid>
+        
+        <category>parquet</category>
+        
+        <category>csv</category>
+        
+        <category>columnar</category>
+        
+        <category></category>
+      </item>
+    
+      <item>
+        <title>Vetores</title>
+        <description>&lt;p&gt;Na sua essência, as soluções atuais de IA Generativa possuem um desafio central: Encontrar dados similares sob diversas óticas. Para responder uma requisição de um usuário, um Large Language Model, como o ChatGPT, precisa buscar palavras que tenham uma certa relação com o que o usuário realmente pediu. As soluções de RAG (Retrieval Augmented Generation), que aparentemente vem sendo a principal alternativa para a criação de soluções generativas proprietárias dentro das organizações, precisam buscar conteúdos relevantes que possam enriquecer as requisições dos usuários com informações que permitam ao modelo criar uma resposta satisfatória.&lt;/p&gt; &lt;p&gt;Mas como eu falei, isso é um...</description>
+        <pubDate>Sat, 28 Sep 2024 20:45:55 +0000</pubDate>
+        <link>/vetores/</link>
+        <guid isPermaLink="true">/vetores/</guid>
+        
+        <category>llm</category>
+        
+        <category>rag</category>
+        
+        <category>vectors</category>
+        
+        <category></category>
+      </item>
+    
+      <item>
+        <title>Como fazer o café da manhã do ChatGPT</title>
+        <description>&lt;p&gt;No último artigo que escrevi, explorei um pouco o funcionamento interno de soluções de LLMs (Large Language Models) como o ChatGPT buscando entender quais recursos são necessários para construir uma solução dessas do zero. E bem, sendo excessivamente breve, é um processo caro, em vários sentidos. Mas ao mesmo tempo, é possível ver grandes organizações do mundo da IA vendendo suas soluções generativas, e outras grandes empresas comprando estas soluções e aplicando dentro de seus próprios negócios, criando modelos customizados para uso interno ou para atendimento ao seus clientes.&lt;/p&gt; &lt;p&gt;Então, o que exatamente está acontecendo? Como todo os custos exorbitantes...</description>
+        <pubDate>Wed, 28 Aug 2024 02:33:16 +0000</pubDate>
+        <link>/como-fazer-o-caf%C3%A9-da-manh%C3%A3-do-chatgpt/</link>
+        <guid isPermaLink="true">/como-fazer-o-caf%C3%A9-da-manh%C3%A3-do-chatgpt/</guid>
+        
+        <category>llm</category>
+        
+        <category>rag</category>
+        
+        <category>genAI</category>
+        
+        <category></category>
+      </item>
+    
+      <item>
+        <title>O que o ChatGPT come no café da manhã?</title>
+        <description>&lt;h2 id=&quot;introdução&quot;&gt;Introdução&lt;/h2&gt; &lt;p&gt;Bem, retomando os estudos sobre Machine Learning do ponto de vista de recursos de dados necessários para o seu funcionamento, é bastante natural buscar entender a família de modelos mais em alta no momento em que escrevo este artigo: Os Large Language Models (LLMs), trazidos em grande relevância pelo desenvolvimento de várias soluções, mas principalmente pela ascensão do ChatGPT.&lt;/p&gt; &lt;p&gt;Pela facilidade de uso, e possibilidade de aplicação nas mais diversas atividades buscando aumentar a produtividade dos seus usuários (e o seu grande hype), é natural ver diversas empresas e organizações buscando criar suas próprias soluções a partir destas...</description>
+        <pubDate>Sun, 11 Aug 2024 19:29:01 +0000</pubDate>
+        <link>/o-que-o-chatgpt-come-no-caf%C3%A9-da-manh%C3%A3/</link>
+        <guid isPermaLink="true">/o-que-o-chatgpt-come-no-caf%C3%A9-da-manh%C3%A3/</guid>
+        
+        <category>llm</category>
+        
+        <category>chatgpt</category>
+        
+        <category>data</category>
+        
+        <category></category>
+      </item>
+    
+      <item>
+        <title>A dieta do Machine Learning</title>
+        <description>&lt;p&gt;Nos últimos artigos que escrevi, falei um pouco, de uma maneira superficial, sobre o que as soluções de Machine Learning fazem para resolver problemas muito complexos, e como a sua ideia de uso se baseia em uma substituição: Ao invés da lógica de um determinado programa ser criada a partir de um programador, agora os próprios programas chegam a uma conclusão de qual lógica utilizar, a partir do consumo de dados sobre o problema.&lt;/p&gt; &lt;p&gt;A questão que fica, e a que pretendo explorar aqui é: Quais dados são necessários para criar uma solução dessas? Ou de uma maneira um pouco...</description>
+        <pubDate>Mon, 15 Jul 2024 12:08:56 +0000</pubDate>
+        <link>/a-dieta-do-machine-learning/</link>
+        <guid isPermaLink="true">/a-dieta-do-machine-learning/</guid>
+        
+        <category>machinelearning</category>
+        
+        <category>quality</category>
+        
+        <category>quantity</category>
+        
+        <category></category>
+      </item>
+    
+      <item>
+        <title>Como eu explicaria Machine Learning para uma criança de 7 anos e meio</title>
+        <description>&lt;p&gt;Este artigo é, de certa forma, uma prática. Talvez ele possa servir para alguém, mas no fundo é só uma prática de uma habilidade necessária: Em meio a tanta coisa complexa disponível, às vezes precisamos pensar simples.&lt;/p&gt; &lt;p&gt;Seguindo a ideia de falar um pouco sobre Inteligência Artificial, o objetivo deste artigo é explicar como Machine Learning funciona para uma criança com especificamente 7 anos e meio de idade (não me pergunte por que 7 anos e meio, eu também não sei). Apesar dos exemplos infantis, espero que possa ajudar mais alguém além de crianças. Afinal, eu não conheço nenhuma criança...</description>
+        <pubDate>Sun, 07 Jul 2024 19:49:37 +0000</pubDate>
+        <link>/como-eu-explicaria-machine-learning-para-uma-crian%C3%A7a-de-7-anos-e-meio/</link>
+        <guid isPermaLink="true">/como-eu-explicaria-machine-learning-para-uma-crian%C3%A7a-de-7-anos-e-meio/</guid>
+        
+        <category></category>
+      </item>
+    
+      <item>
+        <title>Inteligência. Em Máquinas.</title>
+        <description>&lt;p&gt;Inteligência Artificial e Machine Learning são conceitos que viraram moda nos últimos anos e um novo normal nos dias de hoje. Apesar da sua popularidade, existe uma certa confusão sobre eles, e muitas vezes, são tidos como a mesma coisa.&lt;/p&gt; &lt;p&gt;Bem eu poderia simplesmente explicar a diferença entre os dois em alguns poucos parágrafos e dar tchau, mas prefiro seguir um caminho mais longo, e diferente. Até porque já existem muitos artigos sobre esse tema por aí, e seguir o mesmo caminho que eles seria um pouco redundante.&lt;/p&gt; &lt;h2 id=&quot;domínio-da-lógica&quot;&gt;Domínio da Lógica&lt;/h2&gt; &lt;p&gt;Se pararmos para pensar, de uma maneira bem...</description>
+        <pubDate>Sun, 09 Jun 2024 20:21:49 +0000</pubDate>
+        <link>/intelig%C3%AAncia-em-m%C3%A1quinas/</link>
+        <guid isPermaLink="true">/intelig%C3%AAncia-em-m%C3%A1quinas/</guid>
+        
+        <category>ia</category>
+        
+        <category>machinelearning</category>
+        
+        <category></category>
+      </item>
+    
+      <item>
+        <title>Metadata...lake?</title>
+        <description>&lt;p&gt;Em anos recentes, os Metadados ganharam uma certa relevância para as organizações. Primeiro, como uma ferramenta essencial para a construção de uma nova arquitetura de dados, mas depois como uma forma de auxiliar consumidores de dados a encontrarem os melhores conjuntos para o desenvolvimento de um solução.&lt;/p&gt; &lt;p&gt;Mas assim como a quantidade de dados vem crescendo cada vez mais, os metadados parecem estar seguindo o mesmo caminho.&lt;/p&gt; &lt;h2 id=&quot;novos-tipos-de-metadados&quot;&gt;Novos tipos de Metadados&lt;/h2&gt; &lt;p&gt;Com o surgimento de novas ferramentas no mundo da Qualidade e Governança de Dados, novos tipos de metadados, além dos tradicionais vem surgindo.&lt;/p&gt; &lt;ul&gt; &lt;li&gt;Ambientes de Nuvem e...</description>
+        <pubDate>Mon, 03 Jun 2024 02:04:23 +0000</pubDate>
+        <link>/metadatalake/</link>
+        <guid isPermaLink="true">/metadatalake/</guid>
+        
+        <category>metadata</category>
+        
+        <category>datalake</category>
+        
+        <category></category>
+      </item>
+    
+      <item>
+        <title>Metadados: A Única Ponte que Sobrou</title>
+        <description>&lt;p&gt;&lt;a href=&quot;https://andre-ls.github.io/nebula/a-separa%C3%A7%C3%A3o-entre-processamento-e-armazenamento-de-dados-(e-o-p%C3%A9ssimo-exemplo-de-uma-loja-de-perfumes)/&quot;&gt;Como analisado nesse artigo&lt;/a&gt;, os sistemas de dados evoluíram de uma arquitetura onde o processamento dos dados e o seu armazenamento eram mantidos no mesmo dispositivo para um modelo onde cada um se encontra em sistemas separados. Isso trouxe obviamente vantagens e desvantagens. Mas fica a pergunta? Agora que os sistemas estão separados, como o sistema de processamento encontra os dados necessários para realizar uma determinada operação?&lt;/p&gt; &lt;p&gt;A resposta está nos…&lt;/p&gt; &lt;h2 id=&quot;metadados&quot;&gt;Metadados&lt;/h2&gt; &lt;p&gt;A definição mais comum por aí é que metadados são dados sobre dados. É uma definição direta e sucinta, mas um pouco vaga. Mas vasculhando a...</description>
+        <pubDate>Tue, 28 May 2024 03:15:37 +0000</pubDate>
+        <link>/metadados-a-%C3%9Anica-ponte-que-sobrou/</link>
+        <guid isPermaLink="true">/metadados-a-%C3%9Anica-ponte-que-sobrou/</guid>
+        
+        <category>bigdata</category>
+        
+        <category>metadata</category>
+        
+        <category>hive</category>
+        
+        <category></category>
+      </item>
+    
+      <item>
+        <title>A Separação entre Processamento e Armazenamento de Dados (E o péssimo exemplo de uma Loja de Perfumes)</title>
+        <description>&lt;p&gt;&lt;a href=&quot;https://andre-ls.github.io/nebula/hadoop-elefantes-amarelos,-clusters-e-fagulhas/&quot;&gt;No último artigo que escrevi&lt;/a&gt;, falei brevemente sobre alguns motivos pelos quais os elementos básicos do Hadoop (MapReduce e HDFS) perderam espaço no mercado para outras ferramentas. E lá eu citei brevemente que um dos motivos pelo qual o HDFS, o sistema de armazenamento utilizado pelo Hadoop, perdeu a sua liderança no mercado foi devido às atuais tendências de separação entre computação e armazenamento. Bem, devido à falta de um bom exemplo para explicar isso enquanto escrevia o último artigo, bem como visando não deixá-lo muito longo, neste artigo trago este tópico (que é bem interessante) de uma maneira...</description>
+        <pubDate>Sun, 19 May 2024 13:39:55 +0000</pubDate>
+        <link>/a-separa%C3%A7%C3%A3o-entre-processamento-e-armazenamento-de-dados-(e-o-p%C3%A9ssimo-exemplo-de-uma-loja-de-perfumes)/</link>
+        <guid isPermaLink="true">/a-separa%C3%A7%C3%A3o-entre-processamento-e-armazenamento-de-dados-(e-o-p%C3%A9ssimo-exemplo-de-uma-loja-de-perfumes)/</guid>
+        
+        <category>bigdata</category>
+        
+        <category>objectstorage</category>
+        
+        <category>cloud</category>
+        
+        <category></category>
+      </item>
+    
+      <item>
+        <title>Hadoop: Elefantes amarelos, Clusters e Fagulhas</title>
+        <description>&lt;p&gt;O Hadoop é um assunto paradoxal dentro do campo de Engenharia de Dados. Como atual estudante da área, vejo que muito se fala sobre o Apache Spark e a sua mágica velocidade de processamento, mas pouco se fala do Hadoop como a base sobre a qual o Spark foi criado. Ao mesmo tempo, múltiplas soluções ofertadas por ambientes de nuvem utilizadas para execução de tarefas do Spark, muitas vezes não são vendidas apenas como ambientes para o Spark, mas sim para ferramentas do ecossistema Hadoop. Então, qual a sacada do Hadoop? Qual sua importância? E ele ainda é relevante?&lt;/p&gt; &lt;p&gt;De...</description>
+        <pubDate>Sun, 12 May 2024 20:46:31 +0000</pubDate>
+        <link>/hadoop-elefantes-amarelos,-clusters-e-fagulhas/</link>
+        <guid isPermaLink="true">/hadoop-elefantes-amarelos,-clusters-e-fagulhas/</guid>
+        
+        <category>hadoop</category>
+        
+        <category>bigdata</category>
+        
+        <category>spark</category>
+        
+        <category></category>
+      </item>
+    
+      <item>
+        <title>Por que Linux?</title>
+        <description>&lt;p&gt;Linux é um sistema operacional estranho. Muitas pessoas que o utilizam falam de inúmeras vantagens. Outros, que não o utilizam, praticamente o demonizam. E no fim é um sistema que não possui uma grande popularidade. Ou será que tem?&lt;/p&gt; &lt;p&gt;Nesse breve artigo, trago como objetivo entender brevemente sobre a origem do Linux, onde ele pode ser encontrado e algumas de suas vantagens e desvantagens.&lt;/p&gt; &lt;h2 id=&quot;unix&quot;&gt;Unix&lt;/h2&gt; &lt;p&gt;Tudo começa com um sistema chamado Multics, um projeto ambicioso, elaborado através da parceria entre o M.I.T, a General Eletric, e o Bell Labs, o lendário laboratório de pesquisas criado pela AT&amp;amp;T, e hoje...</description>
+        <pubDate>Mon, 06 May 2024 12:29:38 +0000</pubDate>
+        <link>/por-que-linux/</link>
+        <guid isPermaLink="true">/por-que-linux/</guid>
+        
+        <category>linux</category>
+        
+        <category>software</category>
+        
+        <category>cloud</category>
+        
+        <category></category>
+      </item>
+    
+      <item>
+        <title>A Sétima Nébula</title>
+        <description>&lt;p&gt;A Sétima Nébula é simplesmente um repositório de artigos com uma vibe descolada, centrado em temas e tecnologias da área de Dados.&lt;/p&gt; &lt;p&gt;Seu objetivo é basicamente o de compartilhar um pouco de conhecimento através de artigos que sigam algumas ideias básicas:&lt;/p&gt; &lt;ul&gt; &lt;li&gt;Envolvam assuntos teóricos ou práticos relacionados de alguma forma à Área de Dados.&lt;/li&gt; &lt;li&gt;KISS, ou Keep It Simple Stupid: Escrita simples, apenas com a dose de termos técnicos necessária.&lt;/li&gt; &lt;li&gt;Escrita informal, sem o rigor excessivo de artigos científicos.&lt;/li&gt; &lt;/ul&gt; &lt;p&gt;Se isso faz sentido para você, fique à vontade para ler alguma coisa por aqui, ou mandar alguma sugestão...</description>
+        <pubDate>Thu, 02 May 2024 20:48:12 +0000</pubDate>
+        <link>/a-s%C3%A9tima-n%C3%A9bula/</link>
+        <guid isPermaLink="true">/a-s%C3%A9tima-n%C3%A9bula/</guid>
+        
+        <category></category>
+      </item>
+    
+  </channel>
+</rss>
