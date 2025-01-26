@@ -31,17 +31,19 @@ jobs:
           cd ruby-build
           sudo ./install.sh
       - name: Install Ruby
+        id: install-ruby
         run: |
           ruby-build 3.1.4 /opt/hostedtoolcache/Ruby/3.1.4/x64
           touch /opt/hostedtoolcache/Ruby/3.1.4/x64.complete
-          echo 'export PATH="/opt/hostedtoolcache/Ruby/3.1.4/x64/bin:$PATH"' >> $GITHUB_ENV
+      - name: Set up Ruby path
+        run: echo 'export PATH="/opt/hostedtoolcache/Ruby/3.1.4/x64/bin:$PATH"' >> $GITHUB_ENV
       - name: Install Bundler and Gems
         run: |
           gem install --user-install bundler
           bundle config set --local path 'vendor/bundle'
           bundle install --jobs 4 --retry 3
         env:
-          PATH: ${{ steps.install-ruby.outputs.ruby-path }}:${{ secrets.GITHUB_PATH }}
+          PATH: /opt/hostedtoolcache/Ruby/3.1.4/x64/bin:$PATH
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v5
