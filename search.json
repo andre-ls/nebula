@@ -6,7 +6,7 @@
       "title"    : "Apache Parquet (E porque eles são melhores que CSV)",
       "tags"     : "parquet, csv, and columnar",
       "categories" : "",
-      "url"      : "/apache-parquet-(e-porque-eles-s%C3%A3o-melhores-que-csv)/",
+      "url"      : "/nebula/apache-parquet-(e-porque-eles-s%C3%A3o-melhores-que-csv)/",
       "date"     : "01/26/2025"
     } ,
   
@@ -14,7 +14,7 @@
       "title"    : "Vetores",
       "tags"     : "llm, rag, and vectors",
       "categories" : "",
-      "url"      : "/vetores/",
+      "url"      : "/nebula/vetores/",
       "date"     : "09/28/2024"
     } ,
   
@@ -22,7 +22,7 @@
       "title"    : "Como fazer o café da manhã do ChatGPT",
       "tags"     : "llm, rag, and genAI",
       "categories" : "",
-      "url"      : "/como-fazer-o-caf%C3%A9-da-manh%C3%A3-do-chatgpt/",
+      "url"      : "/nebula/como-fazer-o-caf%C3%A9-da-manh%C3%A3-do-chatgpt/",
       "date"     : "08/28/2024"
     } ,
   
@@ -30,7 +30,7 @@
       "title"    : "O que o ChatGPT come no café da manhã?",
       "tags"     : "llm, chatgpt, and data",
       "categories" : "",
-      "url"      : "/o-que-o-chatgpt-come-no-caf%C3%A9-da-manh%C3%A3/",
+      "url"      : "/nebula/o-que-o-chatgpt-come-no-caf%C3%A9-da-manh%C3%A3/",
       "date"     : "08/11/2024"
     } ,
   
@@ -38,7 +38,7 @@
       "title"    : "A dieta do Machine Learning",
       "tags"     : "machinelearning, quality, and quantity",
       "categories" : "",
-      "url"      : "/a-dieta-do-machine-learning/",
+      "url"      : "/nebula/a-dieta-do-machine-learning/",
       "date"     : "07/15/2024"
     } ,
   
@@ -46,7 +46,7 @@
       "title"    : "Como eu explicaria Machine Learning para uma criança de 7 anos e meio",
       "tags"     : "",
       "categories" : "",
-      "url"      : "/como-eu-explicaria-machine-learning-para-uma-crian%C3%A7a-de-7-anos-e-meio/",
+      "url"      : "/nebula/como-eu-explicaria-machine-learning-para-uma-crian%C3%A7a-de-7-anos-e-meio/",
       "date"     : "07/07/2024"
     } ,
   
@@ -54,7 +54,7 @@
       "title"    : "Inteligência. Em Máquinas.",
       "tags"     : "ia and machinelearning",
       "categories" : "",
-      "url"      : "/intelig%C3%AAncia-em-m%C3%A1quinas/",
+      "url"      : "/nebula/intelig%C3%AAncia-em-m%C3%A1quinas/",
       "date"     : "06/09/2024"
     } ,
   
@@ -62,7 +62,7 @@
       "title"    : "Metadata...lake?",
       "tags"     : "metadata and datalake",
       "categories" : "",
-      "url"      : "/metadatalake/",
+      "url"      : "/nebula/metadatalake/",
       "date"     : "06/03/2024"
     } ,
   
@@ -70,7 +70,7 @@
       "title"    : "Metadados: A Única Ponte que Sobrou",
       "tags"     : "bigdata, metadata, and hive",
       "categories" : "",
-      "url"      : "/metadados-a-%C3%9Anica-ponte-que-sobrou/",
+      "url"      : "/nebula/metadados-a-%C3%9Anica-ponte-que-sobrou/",
       "date"     : "05/28/2024"
     } ,
   
@@ -78,7 +78,7 @@
       "title"    : "A Separação entre Processamento e Armazenamento de Dados (E o péssimo exemplo de uma Loja de Perfumes)",
       "tags"     : "bigdata, objectstorage, and cloud",
       "categories" : "",
-      "url"      : "/a-separa%C3%A7%C3%A3o-entre-processamento-e-armazenamento-de-dados-(e-o-p%C3%A9ssimo-exemplo-de-uma-loja-de-perfumes)/",
+      "url"      : "/nebula/a-separa%C3%A7%C3%A3o-entre-processamento-e-armazenamento-de-dados-(e-o-p%C3%A9ssimo-exemplo-de-uma-loja-de-perfumes)/",
       "date"     : "05/19/2024"
     } ,
   
@@ -86,7 +86,7 @@
       "title"    : "Hadoop: Elefantes amarelos, Clusters e Fagulhas",
       "tags"     : "hadoop, bigdata, and spark",
       "categories" : "",
-      "url"      : "/hadoop-elefantes-amarelos,-clusters-e-fagulhas/",
+      "url"      : "/nebula/hadoop-elefantes-amarelos,-clusters-e-fagulhas/",
       "date"     : "05/12/2024"
     } ,
   
@@ -94,7 +94,7 @@
       "title"    : "Por que Linux?",
       "tags"     : "linux, software, and cloud",
       "categories" : "",
-      "url"      : "/por-que-linux/",
+      "url"      : "/nebula/por-que-linux/",
       "date"     : "05/06/2024"
     } ,
   
@@ -102,7 +102,7 @@
       "title"    : "A Sétima Nébula",
       "tags"     : "",
       "categories" : "",
-      "url"      : "/a-s%C3%A9tima-n%C3%A9bula/",
+      "url"      : "/nebula/a-s%C3%A9tima-n%C3%A9bula/",
       "date"     : "05/02/2024"
     } 
   

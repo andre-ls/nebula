@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     
         <url>
-            <loc>/404.html</loc>
+            <loc>/nebula/404.html</loc>
             
                 <changefreq>monthly</changefreq>
                 <priority>0.5</priority>
@@ -10,7 +10,7 @@
         </url>
     
         <url>
-            <loc>/sobre/</loc>
+            <loc>/nebula/sobre/</loc>
             
                 <changefreq>monthly</changefreq>
                 <priority>0.5</priority>
@@ -18,7 +18,7 @@
         </url>
     
         <url>
-            <loc>/category/blog/</loc>
+            <loc>/nebula/category/blog/</loc>
             
                 <changefreq>monthly</changefreq>
                 <priority>0.5</priority>
@@ -26,7 +26,7 @@
         </url>
     
         <url>
-            <loc>/category/code/</loc>
+            <loc>/nebula/category/code/</loc>
             
                 <changefreq>monthly</changefreq>
                 <priority>0.5</priority>
@@ -34,7 +34,7 @@
         </url>
     
         <url>
-            <loc>/contact/</loc>
+            <loc>/nebula/contact/</loc>
             
                 <changefreq>monthly</changefreq>
                 <priority>0.5</priority>
@@ -42,7 +42,7 @@
         </url>
     
         <url>
-            <loc>/category/css/</loc>
+            <loc>/nebula/category/css/</loc>
             
                 <changefreq>monthly</changefreq>
                 <priority>0.5</priority>
@@ -50,7 +50,7 @@
         </url>
     
         <url>
-            <loc>/category/diet/</loc>
+            <loc>/nebula/category/diet/</loc>
             
                 <changefreq>monthly</changefreq>
                 <priority>0.5</priority>
@@ -58,7 +58,7 @@
         </url>
     
         <url>
-            <loc>/feed.xml</loc>
+            <loc>/nebula/feed.xml</loc>
             
                 <changefreq>monthly</changefreq>
                 <priority>0.5</priority>
@@ -66,7 +66,7 @@
         </url>
     
         <url>
-            <loc>/</loc>
+            <loc>/nebula/</loc>
             
                 <changefreq>monthly</changefreq>
                 <priority>0.5</priority>
@@ -74,7 +74,7 @@
         </url>
     
         <url>
-            <loc>/category/life/</loc>
+            <loc>/nebula/category/life/</loc>
             
                 <changefreq>monthly</changefreq>
                 <priority>0.5</priority>
@@ -82,7 +82,7 @@
         </url>
     
         <url>
-            <loc>/contact/message-sent/</loc>
+            <loc>/nebula/contact/message-sent/</loc>
             
                 <changefreq>monthly</changefreq>
                 <priority>0.5</priority>
@@ -90,7 +90,7 @@
         </url>
     
         <url>
-            <loc>/category/music/</loc>
+            <loc>/nebula/category/music/</loc>
             
                 <changefreq>monthly</changefreq>
                 <priority>0.5</priority>
@@ -98,7 +98,7 @@
         </url>
     
         <url>
-            <loc>/assets/css/preview.css</loc>
+            <loc>/nebula/assets/css/preview.css</loc>
             
                 <changefreq>monthly</changefreq>
                 <priority>0.5</priority>
@@ -106,7 +106,7 @@
         </url>
     
         <url>
-            <loc>/search.json</loc>
+            <loc>/nebula/search.json</loc>
             
                 <changefreq>monthly</changefreq>
                 <priority>0.5</priority>
@@ -114,7 +114,7 @@
         </url>
     
         <url>
-            <loc>/sitemap.xml</loc>
+            <loc>/nebula/sitemap.xml</loc>
             
                 <changefreq>monthly</changefreq>
                 <priority>0.5</priority>
@@ -122,7 +122,7 @@
         </url>
     
         <url>
-            <loc>/staff/</loc>
+            <loc>/nebula/staff/</loc>
             
                 <changefreq>monthly</changefreq>
                 <priority>0.5</priority>
@@ -130,7 +130,7 @@
         </url>
     
         <url>
-            <loc>/assets/css/styles.css</loc>
+            <loc>/nebula/assets/css/styles.css</loc>
             
                 <changefreq>monthly</changefreq>
                 <priority>0.5</priority>
@@ -138,7 +138,7 @@
         </url>
     
         <url>
-            <loc>/tags/</loc>
+            <loc>/nebula/tags/</loc>
             
                 <changefreq>monthly</changefreq>
                 <priority>0.5</priority>
@@ -146,7 +146,7 @@
         </url>
     
         <url>
-            <loc>/category/tips/</loc>
+            <loc>/nebula/category/tips/</loc>
             
                 <changefreq>monthly</changefreq>
                 <priority>0.5</priority>
@@ -154,7 +154,7 @@
         </url>
     
         <url>
-            <loc>/category/travel/</loc>
+            <loc>/nebula/category/travel/</loc>
             
                 <changefreq>monthly</changefreq>
                 <priority>0.5</priority>
@@ -162,7 +162,7 @@
         </url>
     
         <url>
-            <loc>/category/tutorial/</loc>
+            <loc>/nebula/category/tutorial/</loc>
             
                 <changefreq>monthly</changefreq>
                 <priority>0.5</priority>
@@ -170,7 +170,7 @@
         </url>
     
         <url>
-            <loc>/category/work/</loc>
+            <loc>/nebula/category/work/</loc>
             
                 <changefreq>monthly</changefreq>
                 <priority>0.5</priority>
@@ -179,91 +179,91 @@
     
     
         <url>
-            <loc>/apache-parquet-(e-porque-eles-s%C3%A3o-melhores-que-csv)/</loc>
+            <loc>/nebula/apache-parquet-(e-porque-eles-s%C3%A3o-melhores-que-csv)/</loc>
             <changefreq>weekly</changefreq>
             <priority>0.8</priority>
             <lastmod>2025-01-26</lastmod>
         </url>
     
         <url>
-            <loc>/vetores/</loc>
+            <loc>/nebula/vetores/</loc>
             <changefreq>weekly</changefreq>
             <priority>0.8</priority>
             <lastmod>2024-09-28</lastmod>
         </url>
     
         <url>
-            <loc>/como-fazer-o-caf%C3%A9-da-manh%C3%A3-do-chatgpt/</loc>
+            <loc>/nebula/como-fazer-o-caf%C3%A9-da-manh%C3%A3-do-chatgpt/</loc>
             <changefreq>weekly</changefreq>
             <priority>0.8</priority>
             <lastmod>2024-08-28</lastmod>
         </url>
     
         <url>
-            <loc>/o-que-o-chatgpt-come-no-caf%C3%A9-da-manh%C3%A3/</loc>
+            <loc>/nebula/o-que-o-chatgpt-come-no-caf%C3%A9-da-manh%C3%A3/</loc>
             <changefreq>weekly</changefreq>
             <priority>0.8</priority>
             <lastmod>2024-08-11</lastmod>
         </url>
     
         <url>
-            <loc>/a-dieta-do-machine-learning/</loc>
+            <loc>/nebula/a-dieta-do-machine-learning/</loc>
             <changefreq>weekly</changefreq>
             <priority>0.8</priority>
             <lastmod>2024-07-15</lastmod>
         </url>
     
         <url>
-            <loc>/como-eu-explicaria-machine-learning-para-uma-crian%C3%A7a-de-7-anos-e-meio/</loc>
+            <loc>/nebula/como-eu-explicaria-machine-learning-para-uma-crian%C3%A7a-de-7-anos-e-meio/</loc>
             <changefreq>weekly</changefreq>
             <priority>0.8</priority>
             <lastmod>2024-07-07</lastmod>
         </url>
     
         <url>
-            <loc>/intelig%C3%AAncia-em-m%C3%A1quinas/</loc>
+            <loc>/nebula/intelig%C3%AAncia-em-m%C3%A1quinas/</loc>
             <changefreq>weekly</changefreq>
             <priority>0.8</priority>
             <lastmod>2024-06-09</lastmod>
         </url>
     
         <url>
-            <loc>/metadatalake/</loc>
+            <loc>/nebula/metadatalake/</loc>
             <changefreq>weekly</changefreq>
             <priority>0.8</priority>
             <lastmod>2024-06-03</lastmod>
         </url>
     
         <url>
-            <loc>/metadados-a-%C3%9Anica-ponte-que-sobrou/</loc>
+            <loc>/nebula/metadados-a-%C3%9Anica-ponte-que-sobrou/</loc>
             <changefreq>weekly</changefreq>
             <priority>0.8</priority>
             <lastmod>2024-05-28</lastmod>
         </url>
     
         <url>
-            <loc>/a-separa%C3%A7%C3%A3o-entre-processamento-e-armazenamento-de-dados-(e-o-p%C3%A9ssimo-exemplo-de-uma-loja-de-perfumes)/</loc>
+            <loc>/nebula/a-separa%C3%A7%C3%A3o-entre-processamento-e-armazenamento-de-dados-(e-o-p%C3%A9ssimo-exemplo-de-uma-loja-de-perfumes)/</loc>
             <changefreq>weekly</changefreq>
             <priority>0.8</priority>
             <lastmod>2024-05-19</lastmod>
         </url>
     
         <url>
-            <loc>/hadoop-elefantes-amarelos,-clusters-e-fagulhas/</loc>
+            <loc>/nebula/hadoop-elefantes-amarelos,-clusters-e-fagulhas/</loc>
             <changefreq>weekly</changefreq>
             <priority>0.8</priority>
             <lastmod>2024-05-12</lastmod>
         </url>
     
         <url>
-            <loc>/por-que-linux/</loc>
+            <loc>/nebula/por-que-linux/</loc>
             <changefreq>weekly</changefreq>
             <priority>0.8</priority>
             <lastmod>2024-05-06</lastmod>
         </url>
     
         <url>
-            <loc>/a-s%C3%A9tima-n%C3%A9bula/</loc>
+            <loc>/nebula/a-s%C3%A9tima-n%C3%A9bula/</loc>
             <changefreq>weekly</changefreq>
             <priority>0.8</priority>
             <lastmod>2024-05-02</lastmod>
@@ -271,7 +271,7 @@
     
     
         <url>
-            <loc>/authors/andre-ls/</loc>
+            <loc>/nebula/authors/andre-ls/</loc>
             <changefreq>monthly</changefreq>
             <priority>0.5</priority>
         </url>
