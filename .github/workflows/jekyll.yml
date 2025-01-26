@@ -7,23 +7,16 @@ on:
 
 jobs:
   build:
-    runs-on: ubuntu-24.04
+    runs-on: ubuntu-latest
 
     steps:
     - name: Checkout repository
       uses: actions/checkout@v4
 
     - name: Set up Ruby
-      run: |
-        sudo apt-get update
-        sudo apt-get install -y build-essential libssl-dev libreadline-dev zlib1g-dev
-        git clone https://github.com/rbenv/ruby-build.git $HOME/ruby-build
-        cd $HOME/ruby-build
-        sudo ./install.sh
-        ruby-build 3.1.4 $HOME/.rubies/3.1.4
-        echo 'export PATH="$HOME/.rubies/3.1.4/bin:$PATH"' >> $GITHUB_ENV
-        echo 'export GEM_HOME=$HOME/.gem' >> $GITHUB_ENV
-        echo 'export PATH=$GEM_HOME/bin:$PATH' >> $GITHUB_ENV
+      uses: actions/setup-ruby@v1
+      with:
+        ruby-version: '3.1.4'
 
     - name: Install Bundler
       run: gem install bundler
