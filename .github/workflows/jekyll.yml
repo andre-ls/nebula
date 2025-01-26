@@ -22,6 +22,8 @@ jobs:
         sudo ./install.sh
         ruby-build 3.1.4 $HOME/.rubies/3.1.4
         echo 'export PATH="$HOME/.rubies/3.1.4/bin:$PATH"' >> $GITHUB_ENV
+        echo 'export GEM_HOME=$HOME/.gem' >> $GITHUB_ENV
+        echo 'export PATH=$GEM_HOME/bin:$PATH' >> $GITHUB_ENV
 
     - name: Install Bundler
       run: gem install bundler
