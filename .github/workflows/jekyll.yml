@@ -26,6 +26,7 @@ jobs:
           sudo apt-get update
           sudo apt-get install -y git-core curl zlib1g-dev build-essential libssl-dev libreadline-dev libyaml-dev libsqlite3-dev sqlite3 libxml2-dev libxslt1-dev libcurl4-openssl-dev software-properties-common libffi-dev
           sudo apt-get install -y libgmp-dev libncurses5-dev libtool bison libffi-dev libgdbm-dev libreadline-dev libyaml-dev libsqlite3-dev sqlite3 libxml2-dev libxslt1-dev autoconf automake libbz2-dev
+          sudo apt-get install -y libssl-dev libcrypto++-dev
       - name: Install ruby-build
         run: |
           git clone https://github.com/rbenv/ruby-build.git
@@ -41,10 +42,11 @@ jobs:
       - name: Install Bundler and Gems
         run: |
           gem install --user-install bundler
+          export PATH="$HOME/.local/share/gem/ruby/3.1.0/bin:$PATH"
           bundle config set --local path 'vendor/bundle'
           bundle install --jobs 4 --retry 3
         env:
-          PATH: /opt/hostedtoolcache/Ruby/3.1.4/x64/bin:$PATH
+          PATH: /opt/hostedtoolcache/Ruby/3.1.4/x64/bin:$HOME/.local/share/gem/ruby/3.1.0/bin:$PATH
           GEM_HOME: /home/runner/.local/share/gem/ruby/3.1.0
           GEM_PATH: /home/runner/.local/share/gem/ruby/3.1.0
       - name: Setup Pages
