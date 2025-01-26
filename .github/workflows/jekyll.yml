@@ -1,27 +1,15 @@
-# This workflow uses actions that are not certified by GitHub.
-# They are provided by a third-party and are governed by
-# separate terms of service, privacy policy, and support
-# documentation.
-
-# Sample workflow for building and deploying a Jekyll site to GitHub Pages
 name: Deploy Jekyll site to Pages
 
 on:
-  # Runs on pushes targeting the default branch
   push:
     branches: ["master"]
-
-  # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
 
-# Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
 permissions:
   contents: read
   pages: write
   id-token: write
 
-# Allow only one concurrent deployment, skipping runs queued between the run in-progress and latest queued.
-# However, do NOT cancel in-progress runs as we want to allow these production deployments to complete.
 concurrency:
   group: "pages"
   cancel-in-progress: false
@@ -29,128 +17,33 @@ concurrency:
 jobs:
   # Build job
   build:
-    if: true
-    strategy:
-      fail-fast: false
-      matrix:
-        os: [ ubuntu-20.04, ubuntu-22.04, ubuntu-24.04, ubuntu-22.04-arm, ubuntu-24.04-arm, macos-13, macos-14 ]
-        ruby: [jruby-9.4.10.0]
-    runs-on: ${{ matrix.os }}
+    runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v4
-    - name: Set tag name
-      id: info
-      run: |
-        tag=toolcache
-        echo "tag=$tag" >> $GITHUB_OUTPUT
-    - name: Set platform
-      id: platform
-      run: |
-        platform=${{ matrix.os }}
-        platform=${platform/macos-13/macos-latest}
-        platform=${platform/macos-14/macos-13-arm64}
-        platform=${platform/%-arm/-arm64}
-        echo "platform=$platform" >> $GITHUB_OUTPUT
-    - name: Set ruby
-      id: ruby
-      run: |
-        ruby=${{ matrix.ruby }}
-        if [[ "$ruby" == [0-9]* ]]; then
-          ruby="ruby-$ruby"
-        fi
-        echo "ruby=$ruby" >> $GITHUB_OUTPUT
-        echo "archive=$ruby-${{ steps.platform.outputs.platform }}.tar.gz" >> $GITHUB_OUTPUT
-
-    - name: Set NO_DOCUMENT
-      run: |
-        if [[ "${{ steps.ruby.outputs.ruby }}" == ruby-1.9* ]]; then
-          echo "NO_DOCUMENT=--no-ri --no-rdoc" >> $GITHUB_ENV
-        else
-          echo "NO_DOCUMENT=--no-document" >> $GITHUB_ENV
-        fi
-
-    - name: Clone ruby-build
-      run: git clone https://github.com/rbenv/ruby-build.git
-    - name: Install ruby-build
-      run: sudo ./ruby-build/install.sh
-
-    - name: List versions
-      run: ruby-build --definitions
-
-      # Install packages
-    - run: sudo apt-get install -y --no-install-recommends libyaml-dev libgdbm-dev libreadline-dev libncurses5-dev
-      if: startsWith(matrix.os, 'ubuntu') && startsWith(steps.ruby.outputs.ruby, 'ruby-')
-    - run: sudo apt-get install -y --no-install-recommends libyaml-dev
-      if: startsWith(matrix.os, 'ubuntu') && startsWith(steps.ruby.outputs.ruby, 'truffleruby')
-
-    - name: Install system ruby for ruby-2.5.2
-      run: sudo apt-get install -y --no-install-recommends ruby
-      if: startsWith(matrix.os, 'ubuntu') && steps.ruby.outputs.ruby == 'ruby-2.5.2'
-
-    - name: Set PREFIX
-      run: |
-        ruby="${{ steps.ruby.outputs.ruby }}"
-        if [[ $ruby == ruby-* ]]; then
-          # See https://github.com/ruby/setup-ruby/issues/98
-          arch=$(node -e 'console.log(os.arch())')
-          echo "PREFIX=$RUNNER_TOOL_CACHE/Ruby/${ruby#ruby-}/$arch" >> $GITHUB_ENV
-        else
-          echo "PREFIX=$HOME/.rubies/$ruby" >> $GITHUB_ENV
-        fi
-    - run: rm -rf $PREFIX
-
-    # macOS runners seem to default to -Werror=implicit-function-declaration, but extconf.rb expects it to be not fatal
-    # See https://bugs.ruby-lang.org/issues/17777 for 2.6.7
-    - name: Set warnflags for Ruby <= 2.2
-      run: echo "warnflags=-Wno-error=implicit-function-declaration" >> $GITHUB_ENV
-      if: startsWith(steps.ruby.outputs.ruby, 'ruby-1.9') || startsWith(steps.ruby.outputs.ruby, 'ruby-2.0') || startsWith(steps.ruby.outputs.ruby, 'ruby-2.1') || startsWith(steps.ruby.outputs.ruby, 'ruby-2.2') || steps.ruby.outputs.ruby == 'ruby-2.6.7'
-
-    - name: Set RUBY_CONFIGURE_OPTS
-      run: echo 'RUBY_CONFIGURE_OPTS=--enable-shared --disable-install-doc' >> $GITHUB_ENV
-    # https://github.com/rbenv/ruby-build/discussions/1961#discussioncomment-4031745
-    - name: Override RUBY_CONFIGURE_OPTS if macos-arm64 ruby-3.1
-      run: echo 'RUBY_CONFIGURE_OPTS=--disable-shared --disable-install-doc' >> $GITHUB_ENV
-      if: matrix.os == 'macos-14' && startsWith(steps.ruby.outputs.ruby, 'ruby-3.1')
-
-    - name: Build Ruby
-      run: ruby-build --verbose ${{ steps.ruby.outputs.ruby }} $PREFIX
-      env:
-        CPPFLAGS: "-DENABLE_PATH_CHECK=0" # https://github.com/actions/virtual-environments/issues/267
-    - name: Create archive
-      run: tar czf ${{ steps.ruby.outputs.archive }} -C $(dirname $PREFIX) $(basename $PREFIX)
-    - name: Install Bundler if needed
-      run: |
-        if [ ! -e $PREFIX/bin/bundle ]; then
-          export PATH="$PREFIX/bin:$PATH"
-          gem install bundler -v '~> 1' $NO_DOCUMENT
-        fi
-
-    - run: echo "$PREFIX/bin" >> $GITHUB_PATH
-    - run: ruby --version
-    - run: ruby -ropen-uri -e 'puts URI.send(:open, %{https://rubygems.org/}) { |f| f.read(1024) }'
-    - name: Install JSON gem
-      run: gem install json -v '2.2.0' $NO_DOCUMENT
-    - run: bundle --version
-    - run: bundle install
-    - run: bundle exec rake --version
-    - run: ruby test_subprocess.rb
-
-    - name: Upload Built Ruby
-      env:
-        GH_TOKEN: ${{ github.token }}
-        GH_REPO: ${{ github.repository }}
-      run: gh release upload "toolcache" "${{ steps.ruby.outputs.archive }}"
-    - name: Setup Pages
-      id: pages
-      uses: actions/configure-pages@v5
-    - name: Build with Jekyll
-      # Outputs to the './_site' directory by default
-      run: bundle exec jekyll build --baseurl "${{ steps.pages.outputs.base_path }}"
-      env:
-        JEKYLL_ENV: production
-    - name: Upload artifact
-      # Automatically uploads an artifact from the './_site' directory by default
-      uses: actions/upload-pages-artifact@v3
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Install Dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y git-core curl zlib1g-dev build-essential libssl-dev libreadline-dev libyaml-dev libsqlite3-dev sqlite3 libxml2-dev libxslt1-dev libcurl4-openssl-dev software-properties-common libffi-dev
+      - name: Install ruby-build
+        run: |
+          git clone https://github.com/rbenv/ruby-build.git
+          cd ruby-build
+          sudo ./install.sh
+      - name: Install Ruby
+        run: |
+          ruby-build 3.1.4 /opt/hostedtoolcache/Ruby/3.1.4/x64
+          touch /opt/hostedtoolcache/Ruby/3.1.4/x64.complete
+          echo 'export PATH="/opt/hostedtoolcache/Ruby/3.1.4/x64/bin:$PATH"' >> $GITHUB_ENV
+      - name: Setup Pages
+        id: pages
+        uses: actions/configure-pages@v5
+      - name: Build with Jekyll
+        run: bundle exec jekyll build --baseurl "${{ steps.pages.outputs.base_path }}"
+        env:
+          JEKYLL_ENV: production
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
 
   # Deployment job
   deploy:
